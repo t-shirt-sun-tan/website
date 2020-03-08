@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Reset } from 'styled-reset'
 
 if (typeof window !== `undefined`) {
   const WebFont = require('webfontloader');
@@ -12,6 +13,7 @@ if (typeof window !== `undefined`) {
 
 const Home = () => (
   <Container>
+    <Reset />
     <main>
       <Title>
         T-Shirt Sun Tan
