@@ -41,3 +41,4 @@ const Title = styled.h1`
 ` 
 
 export default Home
+
