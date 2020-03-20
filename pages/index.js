@@ -1,5 +1,5 @@
+import Layout from '../components/layout'
 import styled from "styled-components";
-import { Reset } from 'styled-reset'
 
 if (typeof window !== `undefined`) {
   const WebFont = require('webfontloader');
@@ -12,17 +12,16 @@ if (typeof window !== `undefined`) {
 }
 
 const Home = () => (
-  <Container>
-    <Reset />
-    <main>
+  <Layout>
+    <Main>
       <Title>
         T-Shirt Sun Tan
       </Title>
-    </main>
-  </Container>
+    </Main>
+  </Layout>
 )
 
-const Container = styled.div`
+const Main = styled.main`
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
