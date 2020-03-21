@@ -38,15 +38,16 @@ const About = () => (
 )
 
 const Container = styled.main`
-  margin: 120px auto 0;
+  margin: 100px auto 0;
   padding: 8px;
 `
 const Main = styled.div`
+  margin-top: 24px;
 `
 
 const H1 = styled.h1`
   font-family: azo-sans-web, sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
   font-size: 2.4em;
   text-align: left;
@@ -58,7 +59,7 @@ const H2 = styled.h2`
   font-family: azo-sans-web, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 1.6em;
+  font-size: 1.4em;
   text-align: left;
   color: #1a1a1a;
 `
