@@ -39,7 +39,7 @@ const About = () => (
 
 const Container = styled.main`
   margin: 100px auto 0;
-  padding: 8px;
+  padding: 12px;
 `
 const Main = styled.div`
   margin-top: 24px;
@@ -66,7 +66,7 @@ const H2 = styled.h2`
 
 const P = styled.p`
   margin-top: 12px;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.6em;
 `
 

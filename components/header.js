@@ -23,14 +23,20 @@ const Container = styled.div`
 `
 
 const TopLight = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
-  top: 40px;
-  right: 8px;
+  top: 24px;
+  right: 12px;
+  width: 60px;
   a {
+    display: block;
     color: #1a1a1a;
+    line-height: 1.8em;
   }
 
   @media (min-width: 768px) {
+    width: 160px;
   }
 `
 
