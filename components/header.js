@@ -6,22 +6,32 @@ const linkStyle = {
 };
 
 const Header = () => (
-  <TopLight>
-    <Link href="/">
-      <a style={linkStyle}>Home</a>
-    </Link>
-    <Link href="/about">
-      <a style={linkStyle}>About</a>
-    </Link>
-  </TopLight>
+  <Container>
+    <TopLight>
+      <Link href="/">
+        <a style={linkStyle}>Home</a>
+      </Link>
+      <Link href="/about">
+        <a style={linkStyle}>About</a>
+      </Link>
+    </TopLight>
+  </Container>
 );
+
+const Container = styled.div`
+  max-width: 800px;
+`
 
 const TopLight = styled.div`
   position: absolute;
   top: 40px;
-  right: 20px;
-  width: 200px;
-  height: 0;
+  right: 8px;
+  a {
+    color: #1a1a1a;
+  }
+
+  @media (min-width: 768px) {
+  }
 `
 
 export default Header;

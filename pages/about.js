@@ -38,8 +38,8 @@ const About = () => (
 )
 
 const Container = styled.main`
-  width: 640px;
   margin: 120px auto 0;
+  padding: 8px;
 `
 const Main = styled.div`
 `

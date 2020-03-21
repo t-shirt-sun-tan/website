@@ -12,6 +12,8 @@ const Layout = (props) => (
 )
 
 const Container = styled.div`
+  max-width: 800px;
+  margin: auto;
 `
 
 export default Layout
